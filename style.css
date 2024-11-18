@@ -24,7 +24,7 @@ h3{
 }
 
 h6{
-    font-size: 16px;
+    font-size: 15px;
     line-height: 32px;
     color: #6c6c6c;
     margin-top: 16px;
@@ -226,6 +226,20 @@ h6{
 .hero-text .header-btn .btn-one:hover::before{
     background-image: linear-gradient(to left, #ea1212, #ea8212, #eeeeee);
     background-position: left center;
+}
+
+.hero-text .header-btn .btn-two:hover{
+    box-shadow: 0 3px 25px 0 rgba(226, 122, 12, 0.16);
+}
+
+
+.service{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.service h4{
+    padding-top: 15px;
 }
 
 
